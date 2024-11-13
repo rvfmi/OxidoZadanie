@@ -1,6 +1,9 @@
 import openai
+import os
 
-openai.api_key = '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'
+key = os.getenv('OPENAI_API_KEY_RAFALM')
+
+openai.api_key = key
 
 default_file_path = "sample_article.txt"
 
@@ -31,3 +34,4 @@ generated_html = response['choices'][0]['message']['content']
 
 with open('artykul.html', 'w', encoding='utf-8') as output_file:
     output_file.write(generated_html)
+    
