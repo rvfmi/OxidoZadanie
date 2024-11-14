@@ -3,6 +3,7 @@ Aplikacja generuje sformatowany kod HTML na podstawie dostarczonego artykułu te
 który umożliwia wizualizację artykułu z zastosowaniem odpowiedniego stylu i struktury. Projekt składa się z dwóch głównych części:
 
 Generowanie kodu HTML na podstawie artykułu i prompta. - plik task.py
+
 Dla chętnych: Tworzenie pliku podglądowego z pełnym widokiem artykułu na podstawie wygenerowanego kodu HTML. - plik podglad.py
 
 Struktura plików
