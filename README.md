@@ -6,11 +6,16 @@ Generowanie kodu HTML na podstawie artykułu i prompta. - plik task.py
 
 Dla chętnych: Tworzenie pliku podglądowego z pełnym widokiem artykułu na podstawie wygenerowanego kodu HTML. - plik podglad.py
 
-Struktura plików
+Struktura plików:
+
 sample_article.txt: Plik wejściowy z artykułem w formacie tekstowym.
+
 prompt.txt: Zawiera instrukcje dla modelu OpenAI do przekształcenia tekstu w HTML.
+
 artykul.html: Wygenerowany plik HTML z artykułem.
+
 szablon.html: Szablon HTML zawierający style CSS i miejsce na kod artykułu.
+
 podglad.html: Pełny podgląd artykułu z zastosowanym stylem CSS, wygenerowany na podstawie szablon.html oraz artykul.html.
 
 Instrukcja uruchomienia:
@@ -24,4 +29,5 @@ Zmienna środowiskowa została ustawiona ze względów bezpieczeństwa, poniewa�
 
 Aby uruchomić program, który na podstawie wysłanego do api OpenAI promptu oraz artykułu zwraca plik artykul.html należy uruchomić Visual Studio Code i wpisać komendę w terminalu:
 python .\task.py  oczywiście z poziomu katalogu, w którym znajduje się plik wpisując wcześniej: cd "Ścieżka do katalogu"
+
 Analogicznie aby uruchomić program, który generuje wystylizowany podgląd artykułu należy wpisać komendę: python .\podglad.py 
