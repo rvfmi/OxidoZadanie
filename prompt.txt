@@ -1,0 +1,13 @@
+Proszę wygenerować kod HTML na podstawie poniższego artykułu. Kod powinien spełniać następujące wytyczne:
+1. Struktura treści powinna być sformatowana przy użyciu odpowiednich tagów HTML.
+2. Tam, gdzie warto wstawić ilustracje dla urozmaicenia treści, proszę wstawić tag <img>
+z atrybutem src ustawionym na 'image_placeholder.jpg'. Proszę także dodać atrybut 'alt' 
+do każdego obrazka, zawierający dokładny prompt, który można użyć do wygenerowania odpowiedniej grafiki.
+Prompt powinien być rozbudowany i różnić się od podpisu.
+3. Dla każdej ilustracji proszę również dodać krótki podpis, umieszczony pod obrazkiem, używając odpowiedniego tagu HTML.
+4. Wygenerowany kod HTML powinien zawierać wyłącznie zawartość do umieszczenia pomiędzy tagami <body> i </body>.
+Nie należy dołączać tagów <html>, <head> ani <body>. Proszę nie stosować stylów CSS ani JavaScript.
+Proszę wygenerować wyłącznie kod HTML w odpowiednich tagach, pomijając wszelkie dodatkowe formatowania lub
+znaczniki takie jak ```html.
+
+Oto treść artykułu:
